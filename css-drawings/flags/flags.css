@@ -1,0 +1,99 @@
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+}
+
+.flag {
+    width: 120px;
+    height: 80px;
+    border: 1px solid #e0e0e0;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.austria {
+    background-image: 
+        linear-gradient(
+            #C8102E 33%, 
+            #FFFFFF 33% 67%, 
+            #C8102E 67%
+        );
+}
+
+.belgium {
+    background-image: 
+        linear-gradient(
+            90deg,
+            #000000 33%,
+            #FDDA24 33% 67%,
+            #EF3340 67%
+        );
+}
+
+.monaco {
+    background-image: 
+        linear-gradient(
+            red 50%, 
+            white 50%
+        );
+}
+
+.qatar {
+    background: 
+        /* linear-gradient(
+            90deg,
+            #FFFFFF 35%,
+            transparent 35% 45%,
+            #8A1538 45%
+        ), */
+        linear-gradient(
+            90deg,
+            #FFFFFF 30%,
+            transparent 30% 46%, 
+            #8A1538 46%
+        ),
+        repeating-linear-gradient(
+            170deg,
+            transparent 46%,
+            transparent 46% 54%,
+            white 54% 62%,
+            transparent 62%
+        ),
+        repeating-linear-gradient(
+            10deg,
+            transparent 30%,
+            #8A1538 30% 38%,
+            #FFFFFF 38% 46%,
+            transparent 46%
+        )
+}
+
+.switzerland {
+    background: 
+        linear-gradient(
+            red 20%,
+            transparent 20% 80%, 
+            red 80%
+        ),
+        linear-gradient(
+            90deg,
+            red 30%,
+            transparent 30% 70%, 
+            red 70%
+        ),
+        linear-gradient(
+            transparent 41%,
+            white 41% 59%,
+            transparent 59%
+        ),
+        linear-gradient(
+            90deg,
+            transparent 43%,
+            white 43% 57%,
+            transparent 57%
+        ),
+        linear-gradient(
+            red, red
+        )
+}

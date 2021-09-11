@@ -39,34 +39,32 @@ html {
         );
 }
 
+.nepal {
+    border: .3em solid #003893;
+    background-image: 
+        linear-gradient(
+            red 50%, 
+            white 50%
+        );
+}
+.nepal::after {
+    content: 'wip';
+}
+
 .qatar {
-    background: 
+    /* background:  */
         /* linear-gradient(
             90deg,
             #FFFFFF 35%,
             transparent 35% 45%,
             #8A1538 45%
         ), */
-        linear-gradient(
-            90deg,
-            #FFFFFF 30%,
-            transparent 30% 46%, 
-            #8A1538 46%
-        ),
-        repeating-linear-gradient(
-            170deg,
-            transparent 46%,
-            transparent 46% 54%,
-            white 54% 62%,
-            transparent 62%
-        ),
-        repeating-linear-gradient(
-            10deg,
-            transparent 30%,
-            #8A1538 30% 38%,
-            #FFFFFF 38% 46%,
-            transparent 46%
-        )
+    background: 
+        linear-gradient(225deg, #8A1538 10px, transparent 0), 
+        linear-gradient(-45deg, #8A1538 10px, transparent 0);
+    background-repeat: repeat-y;
+    background-size: 40px 10px;
+    
 }
 
 .switzerland {
@@ -97,3 +95,25 @@ html {
             red, red
         )
 }
+
+
+/******** Helper Styles *************/
+/* .star {
+    width:120px;
+    height: 120px;
+    background-color: #FDDA24;
+    border: 1px solid black;
+    background:
+        linear-gradient(
+            63deg,
+            transparent 55px,
+            red 55px
+        ),
+        linear-gradient(
+            63deg,
+            transparent 55px,
+            red 55px
+        );
+    background-size: 60px;
+    background-repeat: repeat-x;
+} */
